@@ -1,0 +1,117 @@
+main {
+    background-image: linear-gradient(to right, #353840, #080809);
+}
+
+main > .hero-wrapper {
+    padding-top: 30px;
+    font-family: var(--font-lato);
+}
+
+main > .hero-wrapper > .left-block {
+    width: 55%;
+    padding: 10px 40px;
+}
+
+main > .hero-wrapper > .left-block > :nth-child(1) {
+    color: #fff;
+    font-family: var(--font-thin);
+    font-size: 1.8em;
+    margin: 10px 0 20px;
+}
+
+main > .hero-wrapper > .left-block > :nth-child(1) span {
+    font-family: var(--font-lato);
+    font-weight: 900;
+}
+
+main > .hero-wrapper > .left-block > :nth-child(2) {
+    color: var(--color-font-gray);
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    line-height: 1.3em;
+}
+
+main > .hero-wrapper > .left-block > .hero-buttons {
+    gap: 10px;
+    margin-top: 30px;
+}
+
+main > .hero-wrapper > .left-block > .hero-buttons a {
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 1.6em;
+}
+
+main > .hero-wrapper > .left-block > .hero-buttons > .sign-up-button {
+    background-color: var(--color-green);
+    color: var(--color-black);
+    /* font-size: 1.2em; */
+    border-radius: 3px;
+}
+
+main > .hero-wrapper > .left-block > .hero-buttons > .sign-up-button:hover {
+    background-color: var(--color-dark-green);
+    color: #fff;
+}
+
+main > .hero-wrapper > .left-block > .hero-buttons > .learn-more-button {
+    background-color: var(--color-black);
+    color: #fff;
+    /* font-size: 1.2em; */
+    border-radius: 3px;
+}
+
+main > .hero-wrapper > .left-block > .hero-buttons > .learn-more-button:hover {
+    background-color: var(--color-less-black);
+}
+
+main > .hero-wrapper > .right-block {
+    width: 45%;
+}
+
+main > .hero-wrapper > .right-block p {
+    padding: 5px;
+    color: #fff;
+}
+
+main > .hero-wrapper > .right-block a {
+    text-decoration: none;
+    color: var(--color-font-blue);
+}
+
+main > .hero-wrapper > .right-block a:hover {
+    color: #fff;
+}
+
+main > .hero-wrapper > .right-block img {
+    width: 100%;
+}
+
+main > nav > .hero-links-bar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+main > nav > .hero-links-bar > .hero-bar-link {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0.5em 0;
+    background-color: var(--color-medium-gray);
+    border: 1px solid var(--color-light-gray);
+}
+
+main > nav > .hero-links-bar > .hero-bar-link a {
+    color: #fff;
+    text-decoration: none;
+    font-family: var(--font-lato);
+    font-weight: 600;
+    font-size: 80%;
+}
+
+main > nav > .hero-links-bar > .hero-bar-link span {
+    font-family: var(--font-jost);
+    text-transform: uppercase;
+    font-size: larger;
+    font-weight: 800;
+}

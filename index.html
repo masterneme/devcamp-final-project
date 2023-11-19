@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Foundations Project</title>
+
+    <link rel="icon" href="images/codepen-icon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@900&family=Lato:wght@400;900&family=Rajdhani:wght@300&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/section.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/media-queries.css">
+</head>
+<body class="is-flex">
+    <img src="https://cpwebassets.codepen.io/assets/packs/lines-2-4e66616a5ef291c3566a7ddfe1ffaaa8.svg">
+    <img src="https://cpwebassets.codepen.io/assets/packs/lines-3-4541e35a1939230404d773f7eeddcc9b.svg">
+
+    <div class="container">
+        <header class="is-flex">
+            <nav class="is-flex">
+                <div class="header-logo is-flex">
+                    <img src="images/codepen-logo.png" alt="CodePen Logo" width="100px">
+                </div>
+
+                <div class="links-wrapper is-flex">
+                    <div class="explore">Explore</div>
+
+                    <div class="links">
+                        <a href="/search/pens">Pens</a>
+                        <a href="/search/projects">Projects</a>
+                        <a href="/search/collections">Collections</a>
+                        <a href="/spark">Spark<i class="fa-solid fa-angle-down"></i></a>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="buttons-wrapper is-flex">
+                <a href="/pen">Create <i class="fa-solid fa-angle-down"></i></a>
+                <a href="/search"><i class="fa-solid fa-magnifying-glass"></i></a>
+                <a href="/login">Log In</a>
+                <a href="/accounts/signup/user/free">Sign Up</a>
+            </div>
+        </header>
+
+        <main>
+            <div class="hero-wrapper is-flex">
+                <div class="left-block">
+                    <p>CodePen is a <span>social development environment</span> for front-designers and developers. 👋</p>
+                    <p>It's the best place to build and deploy a website, show off your work, build test cases, and find inspiration.</p>
+
+                    <div class="hero-buttons is-flex">
+                        <a href="#" class="sign-up-button">Sign Up for Free</a>
+                        <a href="#" class="learn-more-button">Learn More</a>
+                    </div>
+                </div>
+
+                <div class="right-block">
+                    <p>This is <a href="/features/projects">CodePen Projects</a>!</p>
+                    <img src="images/codepen-projects.png" alt="CodePen Projects">
+                </div>
+            </div>
+
+            <nav>
+                <div class="hero-links-bar">
+                    <div class="hero-bar-link is-flex"><a href="/features/teams">CodePen for <span>teams</span></a></div>
+                    <div class="hero-bar-link is-flex"><a href="/features/education">CodePen for <span>education</span></a></div>
+                    <div class="hero-bar-link is-flex"><a href="/features/privacy">CodePen for <span>privacy</span></a></div>
+                    <div class="hero-bar-link is-flex"><a href="/features/embeds">CodePen for <span>writing</span></a></div>
+                </div>
+            </nav>
+        </main>
+
+        <section class="is-flex">
+            <form action="/newsletter">
+                <div class="email-submission-wrapper">
+                    <input type="email" name="newsletter" id="newsletter" placeholder="your@email.com">
+                    <input type="submit" value="Submit">
+                </div>
+                <label for="newsletter">Join our newsletter!</label>
+            </form>
+
+            <div class="features-wrapper">
+                <div class="feature-card">
+                    <div class="feature-image-wrapper">
+                        <img src="https://cpwebassets.codepen.io/assets/packs/icon-build-0f21c66ed03bfb36c597636d27ca621e.svg" alt="Icon of conveyer belt with boxes on it.">
+                    </div>
+                    <h2>Build &amp; Test</h2>
+                    <p>Get work done quicker by building out <strong>entire projects</strong> or isolating code to <strong>test features and animations</strong>. Want to keep it all under wraps? <a href="/features/pro"><strong>Upgrade to a <span class="pro-badge" style="margin: 0px 2px;">PRO</span> account </strong></a>to keep your work private.</p>
+                    
+                    <a href="/pen/">Try the Editor</a>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-image-wrapper">
+                        <img src="https://cpwebassets.codepen.io/assets/packs/icon-learn-b1311620e99cea826f259aa2f7750940.svg" alt="Icon of Map">
+                    </div>
+                    <h2>Learn &amp; Discover</h2>
+                    <p>Want to upgrade your skills and get noticed? Participating in CodePen Challenges is a great way to try something new. We frequently feature these Pens on our homepage and across social media!</p>
+                    <a href="/challenges/">Join this Week's Challenge</a>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-image-wrapper">
+                        <img src="https://cpwebassets.codepen.io/assets/packs/icon-share-910c683bbac21bf41fcf9aab64ebc957.svg" alt="Icon of Globe">
+                    </div>
+                    <h2>Share Your Work</h2>
+                    <p>Become a part of the <strong>most active front-end community</strong> in the world by sharing work. Presenting at a conference? Show your code directly in the browser with <a href="https://blog.codepen.io/documentation/pro-features/presentation-mode/"><strong>Presentation Mode</strong></a>.</p>
+                    <a href="/trending" class="button">Explore Trending</a>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer-content-wrapper is-flex">
+                <div class="links-wrapper">
+                    <nav>
+                        <h4>CodePen</h4>
+                        <a href="/about">About</a>
+                        <a href="https://blog.codepen.io/">Blog</a>
+                        <a href="https://blog.codepen.io/radio/">Podcast</a>
+                        <a href="https://blog.codepen.io/documentation/">Documentation</a>
+                        <a href="/support/">Support</a><a href="/advertise">Advertise</a>
+                    </nav>
+                    
+                    <nav>
+                        <h4>For</h4>
+                        <a href="/features/teams">Teams</a>
+                        <a href="/features/education">Education</a>
+                        <a href="/features/privacy">Privacy</a>
+                        <a href="/features/embeds">Embeds</a>
+                        <a href="/features/asset-hosting">Asset Hosting</a>
+                    </nav>
+                    
+                    <nav>
+                        <h4>Social</h4>
+                        <a href="https://www.youtube.com/c/CodePenOfficial">YouTube</a>
+                        <a href="https://x.com/CodePen">𝕏</a>
+                        <a href="https://www.instagram.com/codepen/">Instagram</a>
+                        <a href="https://fosstodon.org/@codepen">Mastodon</a>
+                    </nav>
+                    
+                    <nav>
+                        <h4>Community</h4>
+                        <a href="/spark/">Spark</a>
+                        <a href="/challenges/">Challenges</a>
+                        <a href="/topics/">Topics</a>
+                        <a href="https://blog.codepen.io/documentation/code-conduct/">Code of Conduct</a>
+                    </nav>
+                </div>
+
+                <div class="copyright-wrapper is-flex">
+                    <div class="footer-logo is-flex">
+                        <a href="/"><img src="images/codepen-logo.png" alt="CodePen Logo" width="100px"></a>
+                    </div>
+                    <p>&copy;2023 CodePen</p>
+                    <p><em>Demo or it didn't happen.</em></p>
+                    <p><a href="https://blog.codepen.io/documentation/terms-of-service/">Terms of Service</a> · <a href="https://blog.codepen.io/documentation/privacy-policy/">Privacy Policy</a></p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

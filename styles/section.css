@@ -1,0 +1,108 @@
+section {
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--font-lato);
+    background-color: var(--color-dark-gray);
+}
+
+section > form {
+    background-color: var(--color-medium-gray);
+    margin: 30px;
+    padding: 30px 80px;
+    border-radius: 10px;
+}
+
+section > form > .email-submission-wrapper input#newsletter{
+    margin-right: 5px;
+    padding: 10px 16px;
+    border: none;
+    font-size: 16px;
+    border-radius: 3px;
+}
+
+section > form > .email-submission-wrapper input#newsletter:focus {
+    outline: 2px solid var(--color-font-yellow);
+}
+
+section > form > .email-submission-wrapper input[type="submit"] {
+    background-color: var(--color-green);
+    border: none;
+    border-radius: 3px;
+    padding: 10px 16px;
+    font-weight: bold;
+    font-size: 16px;
+    color: var(--color-black);
+}
+
+section > form > .email-submission-wrapper input[type="submit"]:hover {
+    cursor: pointer;
+    color: #fff;
+    background-color: var(--color-dark-green);
+}
+
+section > form label {
+    display: block;
+    color: #fff;
+    margin-top: 10px;
+    font-family: var(--font-jost);
+    font-size: 27px;
+    font-weight: bold;
+    text-align: center;
+}
+
+section > .features-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 0 10px;
+}
+
+section > .features-wrapper > .feature-card {
+    background-color: var(--color-medium-gray);
+    margin: 30px 0;
+    padding: 30px;
+    border-radius: 10px;
+    color: var(--color-font-gray);
+}
+
+section > .features-wrapper > .feature-card > .feature-image-wrapper {
+    margin: -60px 0 22px;
+    padding: 12px 10px;
+    width: 75px;
+    height: 75px;
+    background-color: var(--color-black);
+    border-radius: 10px;
+}
+
+section > .features-wrapper > .feature-card h2 {
+    color: #fff;
+    font-family: var(--font-jost);
+}
+
+section > .features-wrapper > .feature-card a {
+    text-decoration: none;
+    color: var(--color-font-blue);
+}
+
+section > .features-wrapper > .feature-card > a:last-child {
+    display: block;
+    margin-top: 10px;
+    padding: 10px 16px;
+    color: #fff;
+    font-weight: bold;
+    background-color: var(--color-lighter-gray);
+    border-radius: 3px;
+    text-align: center;
+}
+
+section > .features-wrapper > .feature-card > a:last-child:hover {
+    background-color: var(--color-light-gray);
+}
+
+section > .features-wrapper > .feature-card .pro-badge {
+    color: var(--color-black);
+    font-size: 0.8em;
+    background-color: var(--color-font-yellow);
+    padding: 0.125rem 0.375rem 0;
+    border-radius: 2px;
+}

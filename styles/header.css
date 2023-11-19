@@ -1,0 +1,80 @@
+header {
+    justify-content: space-between;
+    padding: 10px;
+    background-color: var(--color-black);
+    font-family: var(--font-lato);
+}
+
+header > nav > .header-logo {
+    align-items: center;
+    padding: 0 30px 0 10px;
+}
+
+header > nav > .header-logo img {
+    width: 140px;
+    height: 24px;
+}
+
+header > nav > .links-wrapper {
+    flex-direction: column;
+    justify-content: center;
+}
+
+header > nav > .links-wrapper > .explore {
+    color: var(--color-font-yellow);
+    text-transform: uppercase;
+    font-size: 75%;
+}
+
+header > nav > .links-wrapper > .links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 90%;
+    margin-right: 10px;
+}
+
+header > nav > .links-wrapper > .links > a:nth-child(4) {
+    color: var(--color-font-gray);
+    margin-left: 10px;
+}
+
+header > nav > .links-wrapper > .links > a:nth-child(4) > i {
+    margin-left: 10px;
+}
+
+header > .buttons-wrapper {
+    gap: 10px;
+}
+
+header > .buttons-wrapper a {
+    padding: 10px 16px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    background-color: var(--color-medium-gray);
+    border-radius: 3px;
+}
+
+header > .buttons-wrapper > a:nth-child(1) > .fa-angle-down {
+    color: var(--color-green);
+    font-size: larger;
+    transform: translateY(3px);
+}
+
+header > .buttons-wrapper > a:nth-child(2) {
+    background-color: var(--color-black);
+    color: var(--color-light-gray);
+    padding: 0 5px;
+    font-size: 1.6em;
+    transform: translateY(5px);
+}
+
+header > .buttons-wrapper a:hover {
+    background-color: var(--color-light-gray);
+}
+
+header > .buttons-wrapper > a:nth-child(2):hover {
+    background-color: var(--color-black);
+    color: var(--color-lighter-gray);
+}

@@ -1,0 +1,120 @@
+@media (max-width: 915px) {
+    header {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    header > nav {
+        justify-content: space-between;
+    }
+
+    header > .buttons-wrapper {
+        justify-content: center;
+    }
+
+    main > .hero-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main > .hero-wrapper > .left-block {
+        width: 100%;
+    }
+
+    main > .hero-wrapper > .left-block > .hero-buttons {
+        justify-content: center;
+    }
+
+    main > .hero-wrapper > .right-block {
+        width: 100%;
+        margin-top: 30px;
+        padding: 0 40px;
+    }
+
+    main > nav > .hero-links-bar {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    section > form {
+        margin: 30px 40px;
+    }
+
+    section > .features-wrapper {
+        grid-template-columns: 1fr;
+        margin-bottom: 15px;
+    }
+
+    section > .features-wrapper > .feature-card {
+        margin: 15px 30px;
+    }
+
+    footer > .footer-content-wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    footer > .footer-content-wrapper > .copyright-wrapper {
+        align-items: flex-start;
+    }
+}
+
+@media (max-width: 580px) {
+    section > form {
+        width: calc(100% - 60px);
+        padding: 30px 30px;
+    }
+
+    section > form > .email-submission-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    section > form > .email-submission-wrapper input#newsletter{
+        margin-right: 0;
+    }
+
+    section > form > .email-submission-wrapper input[type="submit"] {
+        margin-top: 5px;
+    }
+
+    section > .features-wrapper {
+        padding: 0;
+    }
+}
+
+@media (max-width: 545px) {
+    header > nav {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    main > .hero-wrapper > .left-block > .hero-buttons {
+        flex-direction: column;
+    }
+
+    main > .hero-wrapper > .left-block > .hero-buttons a {
+        text-align: center;
+    }
+
+    main > .hero-wrapper > .left-block > .hero-buttons > .sign-up-button {
+        order: 2;
+    }
+
+    main > .hero-wrapper > .left-block > .hero-buttons > .learn-more-button {
+        order: 1;
+    }
+
+    footer > .footer-content-wrapper {
+        align-items: center;
+    }
+
+    footer > .footer-content-wrapper > .links-wrapper nav {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    footer > .footer-content-wrapper > .copyright-wrapper {
+        align-items: center;
+    }
+}
