@@ -12,4 +12,6 @@ And I want to clarify that if you open the page with Firefox there's a chance th
 
 I say this because one of the requirements is to not have errors on the console.  
 
+I chose to use semantic elements to wrap blocks instead of divs.  
+
 And I added CSS variables to the main page to make the process more efficient, so I didn't have to switch between documents to use colors and fonts.

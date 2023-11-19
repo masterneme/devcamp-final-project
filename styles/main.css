@@ -45,7 +45,6 @@ main > .hero-wrapper > .left-block > .hero-buttons a {
 main > .hero-wrapper > .left-block > .hero-buttons > .sign-up-button {
     background-color: var(--color-green);
     color: var(--color-black);
-    /* font-size: 1.2em; */
     border-radius: 3px;
 }
 
@@ -57,7 +56,6 @@ main > .hero-wrapper > .left-block > .hero-buttons > .sign-up-button:hover {
 main > .hero-wrapper > .left-block > .hero-buttons > .learn-more-button {
     background-color: var(--color-black);
     color: #fff;
-    /* font-size: 1.2em; */
     border-radius: 3px;
 }
 
